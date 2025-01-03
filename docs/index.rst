@@ -13,8 +13,24 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Overview:
+   :caption: Overview
 
    overview/welcome
    overview/what-is-it
-   platforms/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Platforms
+
+   platforms/apple/appleii-iii
+   platforms/apple/macintosh
+   platforms/atari/atari-8bit
+   platforms/atari/atari-16bit
+   platforms/coleco/adam
+   platforms/pc/emulated
+
+.. toctree::
+   :maxdepth: 2 
+   :caption: Reference
+
+   reference/api
