@@ -16,15 +16,5 @@ documentation for details.
    :caption: Overview
 
    overview/*
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Platforms
-
-   platforms/*
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Reference
-
-   reference/*
+   platforms/index
+   reference/index
