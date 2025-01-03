@@ -19,7 +19,7 @@ documentation for details.
    overview/what-is-it
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Platforms
 
    platforms/apple/appleii-iii
@@ -30,7 +30,7 @@ documentation for details.
    platforms/pc/emulated
 
 .. toctree::
-   :maxdepth: 2 
+   :maxdepth: 1 
    :caption: Reference
 
    reference/api
