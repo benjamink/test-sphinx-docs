@@ -13,10 +13,7 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Overview
-   :glob:
+   :caption: Overview:
 
    overview/welcome
    overview/what-is-it
-   platforms/*
-   reference/*
