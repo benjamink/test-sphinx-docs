@@ -16,15 +16,16 @@ As of now, in the summer of 2023:
 
 The Fujinet started as a network adapter that attaches to the SIO (Peripheral) port of an Atari 8-bit computer system but has become an all encompassing SIO peripheral emulator for the Atari. The [hardware](Official-Hardware-Versions) is a design based on the ESP32-WROVER module and contains a custom 3D printed SIO Plug and Receptacle.
 
-# What does it do?
+## What does it do?
 
-## Apple II Devices
+### Apple II Devices
 
-## Commodore Devices
+### Commodore Devices
 
-## ADAM Devices
+### ADAM Devices
 
-## Atari Devices
+### Atari Devices
+
 In some cases, the devices FujiNet provides are meant to simulate real Atari peripherals, such as floppy disk drives (`D:` devices), RS232 and modem interfaces (`R:` devices), and more.
 
 Utilizing the device's Wi-Fi networking capabilities, it's possible to connect to other devices on a local network or Internet, e.g. [Bulletin Board Systems (BBSes)](https://en.wikipedia.org/wiki/Bulletin_board_system) or other systems over Telnet, or even mounting floppy disk images from the "cloud".
@@ -42,15 +43,18 @@ Utilizing the device's Wi-Fi networking capabilities, it's possible to connect t
 
 
 Since devices are handled via the Atari OS's Central I/O (CIO) subsystem, practically any programming language on the Atari will be able to make use of these network features. For example, here's a simple networked program in BASIC:
+
 ```basic
 10 OPEN #1,12,0,"N:HTTP://WWW.GOOGLE.COM/"
 20 DIM A$(1024):TRAP 100
 30 INPUT #1,A$:PRINT A$:GOTO 30
 100 CLOSE #1
 ```
+
 On top of TLS and UDP, cryptographic protocols designed to provide communications security over computer networks, [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security) and [Datagram Transport Layer Security (DTLS)](https://en.wikipedia.org/wiki/Datagram_Transport_Layer_Security) respectively, are also a possibility, thanks to the computing horsepower of device powering FujiNet.
 
-# More information
+## More information
+
 The information from [the "#FujiNet - a WIP SIO Network Adapter for the Atari 8-bit" thread on the AtariAge forums](https://atariage.com/forums/topic/298720-fujinet-a-wip-sio-network-adapter-for-the-atari-8-bit/) should all be covered here in the wiki, and/or on the FujiNet website.  For now, visit that thread for more info.
 
 ## What revisions have there been?
