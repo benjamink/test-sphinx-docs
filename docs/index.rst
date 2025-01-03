@@ -13,18 +13,18 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Overview:
+   :caption: Overview
 
    overview/*
 
 .. toctree::
    :maxdepth: 2
-   :caption: Platforms:
+   :caption: Platforms
 
    platforms/*
 
 .. toctree::
    :maxdepth: 2
-   :caption: Reference:
+   :caption: Reference
 
    reference/*

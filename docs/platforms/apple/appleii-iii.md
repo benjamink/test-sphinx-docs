@@ -1,4 +1,4 @@
-# Apple II & III
+# Apple II & III (8 & 16 bit)
 
 ## Overview
 
