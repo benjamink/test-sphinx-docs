@@ -14,6 +14,8 @@ documentation for details.
 .. toctree::
    :maxdepth: 2
    :caption: Overview:
+   :glob:
 
    overview/welcome
    overview/what-is-it
+   platforms/*
