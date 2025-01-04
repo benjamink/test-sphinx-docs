@@ -32,7 +32,8 @@ html_theme_options = {
   'body_bg': ' #eaeded',
   'base_text': '#ccc',
   'body_text': '#323232',
-  'link': '#448CE4',
+  #'link': '#448CE4',
+  'link': '#2471a3',
   'sidebar_header': '#fdedec',
   'sidebar_hr': '#ff0000',
   'sidebar_text': '#aaaaff',
@@ -40,8 +41,8 @@ html_theme_options = {
   'sidebar_list': '#fff',
   'topic_bg': '#00f',
   'shadow': '#333',
-  'code_bg': '#333',
-  'pre_bg': '#333',
+  'code_bg': '#aaa',
+  'pre_bg': '#aaa',
 }
 html_static_path = ['_static']
 html_sidebars = {
