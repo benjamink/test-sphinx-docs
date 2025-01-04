@@ -30,6 +30,7 @@ html_theme_options = {
   'base_bg': '#212121',
   'base_text': '#ffffff',
   'body_text': '#cccccc',
+  'sidebar_text': '#aaaaaa',
 }
 #  'bgcolor': '#302B35',
 #  'textcolor': '#ffffff', 
