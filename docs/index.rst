@@ -8,7 +8,9 @@ FujiNet Documentation
 
 Welcome to the FujiNet documentation. This documentation is intended to provide information on the FujiNet project, including how to use it, how to develop for it, and how to contribute to the project.
 
-![FujiNet](media/FujiNet-Header.png)
+.. image:: media/FujiNet-Header.png
+   :alt: FujiNet
+   :align: center
 
 .. toctree::
    :maxdepth: 2
