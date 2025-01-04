@@ -40,8 +40,8 @@ html_theme_options = {
   'sidebar_list': '#fff',
   'topic_bg': '#00f',
   'shadow': '#333',
-  'code_bg': '#888',
-  'pre_bg': '#888',
+  'code_bg': '#333',
+  'pre_bg': '#333',
 }
 html_static_path = ['_static']
 html_sidebars = {
