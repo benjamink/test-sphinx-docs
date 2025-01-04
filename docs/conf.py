@@ -30,10 +30,10 @@ html_theme_options = {
   'base_bg': '#212121',
   'body_bg': ' #eaeded',
   'base_text': '#cccccc',
-  'body_text': '#727272',
+  'body_text': '#323232',
   'link': '#448CE4',
   'sidebar_header': '#fdedec',
-  'sidebar_text': '#aaaaaa',
+  'sidebar_text': '#aaaaff',
   'sidebar_link': '#aaaaaa',
   'sidebar_list': '#ffffff',
 }
