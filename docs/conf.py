@@ -32,3 +32,12 @@ html_theme_options = {
   'sidebartextcolor': '#666666',
 }
 html_static_path = ['_static']
+html_sidebars = {
+    '**': [
+        'about.html',
+        'searchfield.html',
+        'navigation.html',
+        'relations.html',
+        'donate.html',
+    ]
+}
