@@ -28,9 +28,9 @@ html_theme = 'alabaster'
 html_theme_options = {
   'logo': 'FujiNet-Header.png',
   'base_bg': '#212121',
-  'body_bg': '#000000',
-  'base_text': '#ffffff',
-  'body_text': '#cccccc',
+  'body_bg': ' #eaeded',
+  'base_text': '#cccccc',
+  'body_text': '#727272',
   'link': '#448CE4',
   'sidebar_header': '#fdedec',
   'sidebar_text': '#aaaaaa',
