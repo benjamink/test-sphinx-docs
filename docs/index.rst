@@ -8,6 +8,8 @@ FujiNet Documentation
 
 Welcome to the FujiNet documentation. This documentation is intended to provide information on the FujiNet project, including how to use it, how to develop for it, and how to contribute to the project.
 
+![FujiNet](media/FujiNet-Header.png)
+
 .. toctree::
    :maxdepth: 2
    :caption: Overview
