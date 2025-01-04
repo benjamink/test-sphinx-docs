@@ -27,9 +27,16 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'classic'
 html_theme_options = {
   'logo': 'FujiNet-Header.png',
+  'bgcolor': '#302B35',
+  'textcolor': '#ffffff', 
+  'linkcolor': '#115178',
+  'headbgcolor': '#212121',
+  'headtextcolor': '#ffffff',
   'sidebarbgcolor': '#212121',
   'sidebartextcolor': '#ffffff',
   'sidebartextcolor': '#666666',
+  'footerbgcolor': '#212121',
+  'footertextcolor': '#999999',
 }
 html_static_path = ['_static']
 #html_sidebars = {
