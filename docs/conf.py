@@ -33,9 +33,11 @@ html_theme_options = {
   'body_text': '#323232',
   'link': '#448CE4',
   'sidebar_header': '#fdedec',
+  'sidebar_hr': '#ff0000',
   'sidebar_text': '#aaaaff',
   'sidebar_link': '#aaaaaa',
   'sidebar_list': '#ffffff',
+  'topic_bg': '#0000ff',
 }
 #  'bgcolor': '#302B35',
 #  'textcolor': '#ffffff', 
