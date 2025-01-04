@@ -39,7 +39,8 @@ html_theme_options = {
   'sidebar_link': '#aaa',
   'sidebar_list': '#fff',
   'topic_bg': '#00f',
-  'shadow': '#f00',
+  'shadow': '#333',
+  'code_bg': '#888',
 }
 html_static_path = ['_static']
 html_sidebars = {
