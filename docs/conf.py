@@ -31,6 +31,7 @@ html_theme_options = {
   'base_text': '#ffffff',
   'body_text': '#cccccc',
   'sidebar_text': '#aaaaaa',
+  'sidebar_link': '#aaaaaa',
 }
 #  'bgcolor': '#302B35',
 #  'textcolor': '#ffffff', 
