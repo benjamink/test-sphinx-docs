@@ -29,7 +29,7 @@ html_theme_options = {
   'logo': 'FujiNet-Header.png',
   'base_bg': '#212121',
   'base_text': '#ffffff',
-  'body_text': '#666666',
+  'body_text': '#cccccc',
 }
 #  'bgcolor': '#302B35',
 #  'textcolor': '#ffffff', 
