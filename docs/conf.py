@@ -25,8 +25,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_pdj_theme'
-#html_theme_options = {
-#  'logo': 'FujiNet-Header.png',
+html_theme_options = {
+  'logo': 'FujiNet-Header.png',
+  'base_bg': '#212121',
+  'base_text': '#ffffff',
+  'body_text': '#666666',
+}
 #  'bgcolor': '#302B35',
 #  'textcolor': '#ffffff', 
 #  'linkcolor': '#115178',
@@ -39,12 +43,12 @@ html_theme = 'sphinx_pdj_theme'
 #  'footertextcolor': '#999999',
 #}
 html_static_path = ['_static']
-#html_sidebars = {
-#    '**': [
-#        'about.html',
-#        'searchfield.html',
-#        'navigation.html',
-#        'relations.html',
-#        'donate.html',
-#    ]
-#}
+html_sidebars = {
+    '**': [
+        'about.html',
+        'searchfield.html',
+        'navigation.html',
+        'relations.html',
+        'donate.html',
+    ]
+}
