@@ -27,5 +27,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'alabaster'
 html_theme_options = {
   'logo': 'FujiNet-Header.png',
+  'bgcolor': '#212121',
+  'textcolor': '#666666',
 }
 html_static_path = ['_static']
