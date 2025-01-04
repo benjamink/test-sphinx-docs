@@ -27,30 +27,20 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'alabaster'
 html_theme_options = {
   'logo': 'FujiNet-Header.png',
-  'anchor': '#666666',
+  'anchor': '#333',
   'base_bg': '#212121',
   'body_bg': ' #eaeded',
-  'base_text': '#cccccc',
+  'base_text': '#ccc',
   'body_text': '#323232',
   'link': '#448CE4',
   'sidebar_header': '#fdedec',
   'sidebar_hr': '#ff0000',
   'sidebar_text': '#aaaaff',
-  'sidebar_link': '#aaaaaa',
-  'sidebar_list': '#ffffff',
-  'topic_bg': '#0000ff',
+  'sidebar_link': '#aaa',
+  'sidebar_list': '#fff',
+  'topic_bg': '#00f',
+  'shadow': '#f00',
 }
-#  'bgcolor': '#302B35',
-#  'textcolor': '#ffffff', 
-#  'linkcolor': '#115178',
-#  'headbgcolor': '#212121',
-#  'headtextcolor': '#ffffff',
-#  'sidebarbgcolor': '#212121',
-#  'sidebartextcolor': '#ffffff',
-#  'sidebartextcolor': '#666666',
-#  'footerbgcolor': '#212121',
-#  'footertextcolor': '#999999',
-#}
 html_static_path = ['_static']
 html_sidebars = {
     '**': [
