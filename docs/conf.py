@@ -24,7 +24,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_pdj_theme'
+html_theme = 'alabaster'
 html_theme_options = {
   'logo': 'FujiNet-Header.png',
   'base_bg': '#212121',
