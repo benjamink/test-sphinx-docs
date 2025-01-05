@@ -20,12 +20,12 @@ The Fujinet started as a network adapter that attaches to the SIO (Peripheral) p
 
 | Platform        | Disk                    | Modem                   | Printer                 |
 |-----------------|-------------------------|-------------------------|-------------------------|
-| Apple II        | {opticon}`check-circle` | {opticon}`circle-slash` | {opticon}`circle-slash` |
-| Apple III       | {opticon}`check-circle` | {opticon}`circle-slash` | {opticon}`circle-slash` |
-| Apple Macintosh | {opticon}`check-circle` | {opticon}`circle-slash` | {opticon}`circle-slash` |
-| Atari 8-bit     | {opticon}`check-circle` | {opticon}`check-circle` | {opticon}`check-circle` |
-| Coleco ADAM     | {opticon}`check-circle` | {opticon}`circle-slash` | {opticon}`circle-slash` |
-| Commodore 8-bit | {opticon}`check-circle` | {opticon}`circle-slash` | {opticon}`circle-slash` |
+| Apple II        | {octicon}`check-circle` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Apple III       | {octicon}`check-circle` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Apple Macintosh | {octicon}`check-circle` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Atari 8-bit     | {octicon}`check-circle` | {octicon}`check-circle` | {octicon}`check-circle` |
+| Coleco ADAM     | {octicon}`check-circle` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Commodore 8-bit | {octicon}`check-circle` | {octicon}`circle-slash` | {octicon}`circle-slash` |
 
 In some cases, the devices FujiNet provides are meant to simulate real Atari peripherals, such as floppy disk drives (`D:` devices), RS232 and modem interfaces (`R:` devices), and more.
 
