@@ -20,12 +20,12 @@ The Fujinet started as a network adapter that attaches to the SIO (Peripheral) p
 
 | Platform        | Disk                    | Modem                   | Printer                 |
 |-----------------|-------------------------|-------------------------|-------------------------|
-| Apple II        | {octicon}`check-circle;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
-| Apple III       | {octicon}`check-circle;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
-| Apple Macintosh | {octicon}`check-circle;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
-| Atari 8-bit     | {octicon}`check-circle;sd-text-success` | {octicon}`check-circle;sd-text-success` | {octicon}`check-circle;sd-text-success` |
-| Coleco ADAM     | {octicon}`check-circle;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
-| Commodore 8-bit | {octicon}`check-circle;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Apple II        | {octicon}`check-circle;1em;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Apple III       | {octicon}`check-circle;1em;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Apple Macintosh | {octicon}`check-circle;1em;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Atari 8-bit     | {octicon}`check-circle;1em;sd-text-success` | {octicon}`check-circle;1em;sd-text-success` | {octicon}`check-circle;1em;sd-text-success` |
+| Coleco ADAM     | {octicon}`check-circle;1em;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
+| Commodore 8-bit | {octicon}`check-circle;1em;sd-text-success` | {octicon}`circle-slash` | {octicon}`circle-slash` |
 
 In some cases, the devices FujiNet provides are meant to simulate real Atari peripherals, such as floppy disk drives (`D:` devices), RS232 and modem interfaces (`R:` devices), and more.
 
