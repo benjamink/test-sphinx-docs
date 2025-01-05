@@ -18,9 +18,9 @@ The Fujinet started as a network adapter that attaches to the SIO (Peripheral) p
 
 ## What does it do?
 
-| Platform | Disk | Modem | Printer |
-|---|---|---|---|
-|Apple II|{check-circle}|{circle-slash}|{circle-slash}|
+| Platform | Disk           | Modem          | Printer        |
+|----------|----------------|----------------|----------------|
+| Apple II | {check-circle} | {circle-slash} | {circle-slash} |
 
 ### Apple II Devices
 
@@ -36,14 +36,14 @@ Utilizing the device's Wi-Fi networking capabilities, it's possible to connect t
 
 ## What devices does it provide?
 
-| Device | Status | Notes |
-|---|---|---|
-| C: (Cassette) | Prototype Working     | Load a CAS image (FUJI format) from MicroSD named test.cas. Write CAS file to MicroSD. Use browser to set PLAY or RECORD state. Short-press Button B to enable the C: device. Install a 10-kohm pulldown resistor on the MOTOR line.                                                                                                                                                                                                |
-|   D: (Disk)   | Working               | Load floppy disk images from onboard MicroSD or networked TNFS server. Currently supports ATR and XEX. ATX in progress                                                                        |
-|   R: (Modem)  | Working               | 850 Modem emulation, supports Type 1 Poll to load handler. Works with existing communications programs such as Ice-T, BobTerm, AMODEM, PLATOTERM, and BBS servers.                            |
-|  P: (Printer) | Working               | Printer output saved to PDF files downloadable from the device. Available Printers: 820, 822, 825, 1020, 1025, 1027, 1029, Espon 80, Okimate 10, HTML for copy/paste, GRANTIC Screen Printer. |
-|  N: (Network) | Working / In Progress | NEW networking device. FujiNet configuration commands in place and working (WiFi, mounting, etc). TCP/UDP working. Handler in progress.                                                       |
-|     Other     |                       | SIO2BT Bluetooth Connection. Apetime Real Time Clock (NTP). SAM Text To Speech as a printer, voice output from #FujiNet to Atari. MIDIMaze network gaming.                                    |
+| Device        | Status                | Notes                                                                                                                                                                                                                                |
+|---------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| C: (Cassette) | Prototype Working     | Load a CAS image (FUJI format) from MicroSD named test.cas. Write CAS file to MicroSD. Use browser to set PLAY or RECORD state. Short-press Button B to enable the C: device. Install a 10-kohm pulldown resistor on the MOTOR line. |
+| D: (Disk)     | Working               | Load floppy disk images from onboard MicroSD or networked TNFS server. Currently supports ATR and XEX. ATX in progress                                                                                                               |
+| R: (Modem)    | Working               | 850 Modem emulation, supports Type 1 Poll to load handler. Works with existing communications programs such as Ice-T, BobTerm, AMODEM, PLATOTERM, and BBS servers.                                                                   |
+| P: (Printer)  | Working               | Printer output saved to PDF files downloadable from the device. Available Printers: 820, 822, 825, 1020, 1025, 1027, 1029, Espon 80, Okimate 10, HTML for copy/paste, GRANTIC Screen Printer.                                        |
+| N: (Network)  | Working / In Progress | NEW networking device. FujiNet configuration commands in place and working (WiFi, mounting, etc). TCP/UDP working. Handler in progress.                                                                                              |
+| Other         |                       | SIO2BT Bluetooth Connection. Apetime Real Time Clock (NTP). SAM Text To Speech as a printer, voice output from #FujiNet to Atari. MIDIMaze network gaming.                                                                           |
 
 
 Since devices are handled via the Atari OS's Central I/O (CIO) subsystem, practically any programming language on the Atari will be able to make use of these network features. For example, here's a simple networked program in BASIC:
