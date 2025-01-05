@@ -18,6 +18,10 @@ The Fujinet started as a network adapter that attaches to the SIO (Peripheral) p
 
 ## What does it do?
 
+| Platform | Disk | Modem | Printer |
+|---|---|---|---|
+|Apple II|{check-circle}|{circle-slash}|{circle-slash}|
+
 ### Apple II Devices
 
 ### Commodore Devices
